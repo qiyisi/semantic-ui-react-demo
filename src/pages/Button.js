@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Icon, Label } from "semantic-ui-react";
 
-import Wrapper from "../component/Wrapper";
+import Wrapper from "../components/Wrapper";
 
 const ButtonExample = () => (
   <>
@@ -82,6 +82,52 @@ const ButtonExample = () => (
         icon="fork"
         label={{ as: "a", basic: true, content: "2,048" }}
         labelPosition="left"
+      />
+    </Wrapper>
+    <Wrapper>
+      <Button as="div" labelPosition="right">
+        <Button color="red">
+          <Icon name="heart" />
+          Like
+        </Button>
+        <Label as="a" basic color="red" pointing="left">
+          2,048
+        </Label>
+      </Button>
+      <Button as="div" labelPosition="right">
+        <Button basic color="blue">
+          <Icon name="fork" />
+          Fork
+        </Button>
+        <Label as="a" basic color="blue" pointing="left">
+          2,048
+        </Label>
+      </Button>
+    </Wrapper>
+    <Wrapper>
+      <Button
+        color="red"
+        content="Like"
+        icon="heart"
+        label={{
+          basic: true,
+          color: "red",
+          pointing: "left",
+          content: "2,048",
+        }}
+      />
+      <Button
+        basic
+        color="blue"
+        content="Fork"
+        icon="fork"
+        label={{
+          as: "a",
+          basic: true,
+          color: "blue",
+          pointing: "left",
+          content: "2,048",
+        }}
       />
     </Wrapper>
   </>

@@ -1,0 +1,27 @@
+import React from "react";
+import { Grid, Image, Rail, Segment } from "semantic-ui-react";
+import Wrapper from "../components/Wrapper";
+
+const RailExample = () => (
+  <>
+    <Wrapper>
+      <Grid centered columns={3}>
+        <Grid.Column>
+          <Segment>
+            <Image src="./cat.jpg" />
+
+            <Rail position="left">
+              <Segment>Left Rail Content</Segment>
+            </Rail>
+
+            <Rail position="right">
+              <Segment>Right Rail Content</Segment>
+            </Rail>
+          </Segment>
+        </Grid.Column>
+      </Grid>
+    </Wrapper>
+  </>
+);
+
+export default RailExample;
