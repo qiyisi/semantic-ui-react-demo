@@ -53,6 +53,87 @@ function Home() {
           <li>
             <Link to="/grid">Grid</Link>
           </li>
+          <li>
+            <Link to="/menu">Menu</Link>
+          </li>
+          <li>
+            <Link to="/message">Message</Link>
+          </li>
+          <li>
+            <Link to="/table">Table</Link>
+          </li>
+          <li>
+            <Link to="/advertisement">Advertisement</Link>
+          </li>
+          <li>
+            <Link to="/card">Card</Link>
+          </li>
+          <li>
+            <Link to="/comment">Comment</Link>
+          </li>
+          <li>
+            <Link to="/feed">Feed</Link>
+          </li>
+          <li>
+            <Link to="/item">Item</Link>
+          </li>
+          <li>
+            <Link to="/statistic">Statistic</Link>
+          </li>
+          <li>
+            <Link to="/accordion">Accordion</Link>
+          </li>
+          <li>
+            <Link to="/checkbox">Checkbox</Link>
+          </li>
+          <li>
+            <Link to="/dimmer">Dimmer</Link>
+          </li>
+          <li>
+            <Link to="/dropdown">Dropdown</Link>
+          </li>
+          <li>
+            <Link to="/embed">Embed</Link>
+          </li>
+          <li>
+            <Link to="/modal">Modal</Link>
+          </li>
+          <li>
+            <Link to="/popup">Popup</Link>
+          </li>
+          <li>
+            <Link to="/progress">Progress</Link>
+          </li>
+          <li>
+            <Link to="/rating">Rating</Link>
+          </li>
+          <li>
+            <Link to="/search">Search</Link>
+          </li>
+          <li>
+            <Link to="/sidebar">Sidebar</Link>
+          </li>
+          <li>
+            <Link to="/sticky">Sticky</Link>
+          </li>
+          <li>
+            <Link to="/tab">Tab</Link>
+          </li>
+          <li>
+            <Link to="/transition">Transition</Link>
+          </li>
+          <li>
+            <Link to="/confirm">Confirm</Link>
+          </li>
+          <li>
+            <Link to="/pagination">Pagination</Link>
+          </li>
+          <li>
+            <Link to="/portal">Portal</Link>
+          </li>
+          <li>
+            <Link to="/radio">Radio</Link>
+          </li>
         </ul>
       </nav>
     </div>
